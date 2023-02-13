@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Title JSON Generator</title>
+</head>
+<body>
+    <label for="messageInput">Message: </label>
+    <input id="messageInput">
+    <br> <br>
+    <label for="isBold">Bold: </label>
+    <input id="isBold" type="checkbox">
+    <br> <br>
+    <label for="isItalic">Italic: </label>
+    <input id="isItalic" type="checkbox">
+    <br> <br>
+    <label for="colorInput">Color: </label>
+    <input id="colorInput">
+    <br> <br>
+    <button onclick="generateJSON()">Generate JSON</button>
+    <br> <br> <br>
+    <h1>Generated JSON</h1>
+    <div id="genJson"></div>
+    <br> <br>
+    <h1>Full Command</h1>
+    <div id="fullCmd"></div>
+    <script src="gen.js"></script>
+</body>
+</html>
